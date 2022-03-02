@@ -1,0 +1,93 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  height: 3000px;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+}
+
+.img-bg {
+  width: 100%;
+  position: relative;
+  box-shadow: inset 4px 10px 4px rgb(0, 0, 0);
+  filter:brightness(95%);
+}
+/* https://www.w3schools.com/cssref/css3_pr_filter.asp */
+/* https://www.educative.io/edpresso/how-to-create-an-inner-shadow-using-css */
+
+/* .img-bg {
+    background-size: cover;
+    background-position: no-repeat;
+    background-position: center;
+    position: relative;
+    margin: 0%;
+    text-align: center;
+    height: auto;
+    width: 100%;
+  } */
+
+.centered-text {
+  margin: 0%;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  left: 35%;
+  bottom: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.center-title {
+  /* https://www.w3schools.com/csSref/css3_pr_text-shadow.asp */
+  margin: 0%;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 96px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: white;
+  text-shadow: 2px 2px 8px #000000;
+}
+
+.center-subhead {
+  margin: 0;
+  margin-top: 6px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 36px;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: left;
+  letter-spacing: 4px;
+  color: white;
+  width: 125%;
+  background-color: rgb(85, 226, 179);
+}
+
+.containerBody {
+  margin-top: 8%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+h1 {
+  font-family: "proxima-nova", sans-serif;
+}
+
+p {
+  font-family: "proxima-nova", sans-serif;
+  line-height: 24px;
+}
+
+li {
+  font-family: "proxima-nova", sans-serif;
+  font-size: 14px;
+  line-height: 36px;
+}
